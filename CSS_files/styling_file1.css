@@ -1,63 +1,81 @@
-body{
-	opacity:0.5;
-	background-attachment:fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-blend-mode:overlay;
-	color:black;
-	font-size:20px; 
-	text-align : justify;  
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-weight:bold;
-	opacity:1;
+body {
+  opacity: 0.5;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: bold;
+  opacity: 1;
 }
 
-div{
-	background:rgba(128,128,128,0.4);
-	border-radius: 5px;
+div {
+  background: rgba(128, 128, 128, 0.4);
+  border-radius: 5px;
 }
 
-h1{
-	text-align: center;
-	color:black;
-	background-color:transparent;
-	font-family: 'Pacifico', cursive;
+h1 {
+  text-align: center;
+  color: black;
+  background-color: transparent;
+  font-family: "Pacifico", cursive;
 }
 
-p{
-	background-color:transparent;
-	border-style:solid;
-	border-color:rgb(12,12,12);
-	border-width:5px;
-	border-radius:5px;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-right:10px;
-	padding-left:10px;
-	opacity:1;
+p {
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgb(12, 12, 12);
+  border-width: 5px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  opacity: 1;
 }
-h2{
-	text-align:center;
-	color:black;
-	font-family: 'Pacifico', cursive;
+h2 {
+  text-align: center;
+  color: black;
+  font-family: "Pacifico", cursive;
 }
-div.first{
-	background-color:transparent;
-	border-style:solid;
-	border-color:rgb(12,12,12);
-	border-width:5px;
-	border-radius:5px;
-	opacity:1;
+div.first {
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgb(12, 12, 12);
+  border-width: 5px;
+  border-radius: 5px;
+  opacity: 1;
 }
-p.first{
-	background-color:transparent;
-	border-style:none;
-	border-color:rgb(12,12,12);
-	border-width:0px;
-	border-radius:0px;
-	opacity:1;
+p.first {
+  background-color: transparent;
+  border-style: none;
+  border-color: rgb(12, 12, 12);
+  border-width: 0px;
+  border-radius: 0px;
+  opacity: 1;
 }
-div.input_boxes{
-	display: inline;
-    
+th.no1 {
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  text-align: center;
+  border: 1 solid black;
+}
+td.no1 {
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: 1 solid black;
+}
+table.no1 {
+  width: 100%;
+  height: 50%;
+  border: 1 solid black;
+}
+table {
+  text-align: left;
+  width: 100%;
 }
